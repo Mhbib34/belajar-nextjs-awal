@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Navbar from "../Navbar/index";
-const disabledNavbar = ["/auth/login", "/auth/register"];
+
+const disabledNavbar = ["/auth/login", "/auth/register", "/404"];
 
 const AppShell = ({ children }) => {
   const { pathname } = useRouter();
