@@ -1,15 +1,11 @@
-import Link from "next/link";
-import React from "react";
+import RegisterView from "@/views/auth/register";
 
-const register = () => {
+const Register = () => {
   return (
     <div>
-      <h1>Register Pages</h1>
-      <p>
-        Sudah punya akun? <Link href={"/auth/login"}>Login</Link>{" "}
-      </p>
+      <RegisterView />
     </div>
   );
 };
 
-export default register;
+export default Register;
