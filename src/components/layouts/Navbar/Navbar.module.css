@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   gap: 2rem;
-  background-color: red;
+  background-color: black;
+  padding: 1rem;
   color: white;
 }
